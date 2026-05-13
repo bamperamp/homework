@@ -1,0 +1,51 @@
+Script started on 2026-05-14 02:11:40+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+0;bamperamp@DESKTOP-7IPSMTS: ~
+bamperamp@DESKTOP-7IPSMTS:~$ pwd
+/home/bamperamp
+0;bamperamp@DESKTOP-7IPSMTS: ~
+bamperamp@DESKTOP-7IPSMTS:~$ cd /etc
+0;bamperamp@DESKTOP-7IPSMTS: /etc
+bamperamp@DESKTOP-7IPSMTS:/etc$ ls
+PackageKit              dconf           hostname        mime.types           rc0.d          subuid-
+X11                     debconf.conf    hosts           mke2fs.conf          rc1.d          sudo.conf
+adduser.conf            debian_version  init.d          modprobe.d           rc2.d          sudo_logsrvd.conf
+alternatives            default         inputrc         modules              rc3.d          sudoers
+apparmor                deluser.conf    iproute2        modules-load.d       rc4.d          sudoers.d
+apparmor.d              depmod.d        issue           mtab                 rc5.d          supercat
+apport                  dhcp            issue.net       nanorc               rc6.d          sysctl.conf
+apt                     dhcpcd.conf     kernel          netconfig            rcS.d          sysctl.d
+bash.bashrc             dpkg            landscape       netplan              resolv.conf    systemd
+bash_completion         e2scrub.conf    ld.so.cache     network              rmt            terminfo
+bash_completion.d       environment     ld.so.conf      networkd-dispatcher  rpc            timezone
+bindresvport.blacklist  environment.d   ld.so.conf.d    networks             rsyslog.conf   tmpfiles.d
+binfmt.d                ethertypes      ldap            newt                 rsyslog.d      ubuntu-advantage
+byobu                   fonts           legal           nsswitch.conf        security       ucf.conf
+ca-certificates         fstab           libaudit.conf   opt                  selinux        udev
+ca-certificates.conf    fuse.conf       locale.alias    os-release           sensors.d      update-manager
+cloud                   gai.conf        locale.conf     pam.conf             sensors3.conf  update-motd.d
+console-setup           glvnd           locale.gen      pam.d                services       vconsole.conf
+credstore               gnutls          localtime       passwd               sgml           vim
+credstore.encrypted     gprofng.rc      logcheck        passwd-              shadow         vtrgb
+cron.d                  groff           login.defs      perl                 shadow-        vulkan
+cron.daily              group           logrotate.conf  pm                   shells         wgetrc
+cron.hourly             group-          logrotate.d     polkit-1             skel           wsl-distribution.conf
+cron.monthly            gshadow         lsb-release     profile              ssh            wsl.conf
+cron.weekly             gshadow-        machine-id      profile.d            ssl            xattr.conf
+cron.yearly             gss             magic           protocols            subgid         xdg
+crontab                 gtk-3.0         magic.mime      python3              subgid-        xml
+dbus-1                  host.conf       manpath.config  python3.12           subuid         zsh_command_not_found
+0;bamperamp@DESKTOP-7IPSMTS: /etc
+bamperamp@DESKTOP-7IPSMTS:/etc$ cd /var/log
+0;bamperamp@DESKTOP-7IPSMTS: /var/log
+bamperamp@DESKTOP-7IPSMTS:/var/log$ cd /var/lols /usr/bin | wc -l
+ls /usr/bin | wc -l
+810
+0;bamperamp@DESKTOP-7IPSMTS: /var/log
+bamperamp@DESKTOP-7IPSMTS:/var/log$ cd
+0;bamperamp@DESKTOP-7IPSMTS: ~
+bamperamp@DESKTOP-7IPSMTS:~$ cd ~
+0;bamperamp@DESKTOP-7IPSMTS: ~
+bamperamp@DESKTOP-7IPSMTS:~$ exit
+exit
+
+Script done on 2026-05-14 02:13:05+03:00 [COMMAND_EXIT_CODE="0"]
