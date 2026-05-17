@@ -1,0 +1,16 @@
+Script started on 2026-05-18 02:48:49+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+0;bamperamp@DESKTOP-7IPSMTS: ~
+bamperamp@DESKTOP-7IPSMTS:~$ nano secret.gkey
+>0;bamperamp@DESKTOP-7IPSMTS: ~[ Writing... ] [ Wrote 1 line ]                                                           Y Yes        
+bamperamp@DESKTOP-7IPSMTS:~$ ls -l secret.key
+-rw-r--r-- 1 bamperamp bamperamp 4 May 18 02:49 secret.key
+0;bamperamp@DESKTOP-7IPSMTS: ~
+bamperamp@DESKTOP-7IPSMTS:~$ chmod 600 secret.key
+0;bamperamp@DESKTOP-7IPSMTS: ~
+bamperamp@DESKTOP-7IPSMTS:~$ ls -l secret.key
+-rw------- 1 bamperamp bamperamp 4 May 18 02:49 secret.key
+0;bamperamp@DESKTOP-7IPSMTS: ~
+bamperamp@DESKTOP-7IPSMTS:~$ exit
+exit
+
+Script done on 2026-05-18 02:50:16+03:00 [COMMAND_EXIT_CODE="0"]
