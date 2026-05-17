@@ -1,0 +1,231 @@
+Script started on 2026-05-18 01:00:56+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ apropose sdis= dis dis dis
+
+
+
+
+
+proc_diskstats (5)   - disk I/O statistics
+cfdisk (8)           - display or manipulate a disk partition table
+cgdisk (8)           - Curses-based GUID partition table (GPT) manipulator
+eatmydata (1)        - transparently disable fsync() and other data-to-disk synchronization calls
+fdisk (8)            - manipulate disk partition table
+gdisk (8)            - Interactive GUID partition table (GPT) manipulator
+git-count-objects (1) - Count unpacked number of objects and their disk consumption
+git-credential-store (1) - Helper to store credentials on disk
+hd (4)               - MFM/IDE hard disk devices
+initrd (4)           - boot loader initialized RAM disk
+pam_setquota (8)     - PAM module to set or modify disk quotas on session start
+partx (8)            - tell the kernel about the presence and numbering of on-disk partitions
+ram (4)              - ram disk device
+sd (4)               - driver for SCSI disk drives
+sfdisk (8)           - display or manipulate a disk partition table
+sgdisk (8)           - Command-line GUID partition table (GPT) manipulator for Linux and Unix
+systemd-cryptsetup (8) - Full disk decryption logic
+systemd-cryptsetup@.service (8) - Full disk decryption logic
+systemd-integritysetup (8) - Disk integrity protection logic
+systemd-integritysetup@.service (8) - Disk integrity protection logic
+systemd-machine-id-commit.service (8) - Commit a transient machine ID to disk
+systemd-veritysetup (8) - Disk verity protection logic
+systemd-veritysetup@.service (8) - Disk verity protection logic
+systemd.image-policy (7) - Disk Image Dissection Policy
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ ф�apropos free space
+arpd (8)             - userspace arp daemon.
+cgroup_namespaces (7) - overview of Linux cgroup namespaces
+df (1)               - report file system space usage
+du (1)               - estimate file space usage
+e2freefrag (8)       - report free space fragmentation information
+expand (1)           - convert tabs to spaces
+fallocate (1)        - preallocate or deallocate space to a file
+free (1)             - Display amount of free and used memory in the system
+fsfreeze (8)         - suspend access to a filesystem (Ext3/4, ReiserFS, JFS, XFS)
+fuse (4)             - Filesystem in Userspace (FUSE) device
+futex (7)            - fast user-space locking
+git-stripspace (1)   - Remove unnecessary whitespace
+gitnamespaces (7)    - Git namespaces
+growpart (1)         - extend a partition in a partition table to fill available space
+ip-netns (8)         - process network namespace management
+ipc_namespaces (7)   - overview of Linux IPC namespaces
+lsns (8)             - list namespaces
+mount_namespaces (7) - overview of Linux mount namespaces
+namespace.conf (5)   - the namespace configuration file
+namespaces (7)       - overview of Linux namespaces
+netlink (7)          - communication between kernel and user space (AF_NETLINK)
+network_namespaces (7) - overview of Linux network namespaces
+nsenter (1)          - run program in different namespaces
+org.freedesktop.hostname1 (5) - The D-Bus interface of systemd-hostnamed
+org.freedesktop.import1 (5) - The D-Bus interface of systemd-importd
+org.freedesktop.locale1 (5) - The D-Bus interface of systemd-localed
+org.freedesktop.LogControl1 (5) - D-Bus interface to query and set logging configuration
+org.freedesktop.login1 (5) - The D-Bus interface of systemd-logind
+org.freedesktop.machine1 (5) - The D-Bus interface of systemd-machined
+org.freedesktop.network1 (5) - The D-Bus interface of systemd-networkd
+org.freedesktop.portable1 (5) - The D-Bus interface of systemd-portabled
+org.freedesktop.resolve1 (5) - The D-Bus interface of systemd-resolved
+org.freedesktop.systemd1 (5) - The D-Bus interface of systemd
+org.freedesktop.timedate1 (5) - The D-Bus interface of systemd-timedated
+pam_namespace (8)    - PAM module for configuring namespace for a session
+pam_namespace_helper (8) - Helper binary that creates home directories
+pid_namespaces (7)   - overview of Linux PID namespaces
+proc_pid_ns (5)      - namespaces
+proc_sys_user (5)    - limits on the number of namespaces of various types
+snap-discard-ns (8)  - internal tool for discarding preserved namespaces of snappy applications
+systemd-soft-reboot.service (8) - Userspace reboot operation
+Text::WrapI18N (3pm) - Line wrapping module with support for multibyte, fullwidth, and combining characters and langu...
+time_namespaces (7)  - overview of Linux time namespaces
+unexpand (1)         - convert spaces to tabs
+unshare (1)          - run program in new namespaces
+user_namespaces (7)  - overview of Linux user namespaces
+uts_namespaces (7)   - overview of Linux UTS namespaces
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ df man
+df: man: No such file or directory
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ man df
+DF(1)                                               User Commands                                               DF(1)
+
+NAME
+       df - report file system space usage
+
+SYNOPSIS
+       df [OPTION]... [FILE]...
+
+DESCRIPTION
+       This  manual page documents the GNU version of df.  df displays the amount of space available on the file sys‐
+       tem containing each file name argument.  If no file name is  given,  the  space  available  on  all  currently
+       mounted  file  systems  is  shown.   Space  is  shown in 1K blocks by default, unless the environment variable
+       POSIXLY_CORRECT is set, in which case 512-byte blocks are used.
+
+       If an argument is the absolute file name of a device node containing a mounted file system, df shows the space
+       available on that file system rather than on the file system containing the device node.  This version  of  df
+       cannot  show the space available on unmounted file systems, because on most kinds of systems doing so requires
+       non-portable intimate knowledge of file system structures.
+
+OPTIONS
+       Show information about the file system on which each FILE resides, or all file systems by default.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a, --all
+              include pseudo, duplicate, inaccessible file systems
+
+       -B, --block-size=SIZE
+              scale sizes by SIZE before printing them; e.g., '-BM' prints sizes in units  of  1,048,576  bytes;  see
+ ESESCOApage df(1) line 1 (press h for help or q to quit)
+              SIZE format belows h for help or q to quit)
+ ESESCOBpage df(1) line 2 (press h for help or q to quit)
+       -h, --human-readablepress h for help or q to quit)
+              print sizes in powers of 1024 (e.g., 1023M)
+ ESESCOBpage df(1) line 5 (press h for help or q to quit)
+       -H, --si(1) line 6 (press h for help or q to quit)
+              print sizes in powers of 1000 (e.g., 1.1G))
+ ESESCOBpage df(1) line 8 (press h for help or q to quit)
+MESESCOApage df(1) line 9 (press h for help or q to quit)
+M       df [OPTION]... [FILE]... h for help or q to quit)
+MSYNOPSISage df(1) line 7 (press h for help or q to quit)
+MESESCOApage df(1) line 6 (press h for help or q to quit)
+M       df - report file system space usage or q to quit)
+MNAMECOApage df(1) line 4 (press h for help or q to quit)
+MESESCOApage df(1) line 3 (press h for help or q to quit)
+MDF(1)                                               User Commands                                               DF(1)
+ ESESCOApage df(1) line 1 (press h for help or q to quit)
+ ESESCOApage df(1) line 1 (press h for help or q to quit)
+              SIZE format belows h for help or q to quit)
+ ESESCOBpage df(1) line 2 (press h for help or q to quit)
+       -h, --human-readablepress h for help or q to quit)
+              print sizes in powers of 1024 (e.g., 1023M)
+ ESESCOBpage df(1) line 5 (press h for help or q to quit)
+       -H, --si(1) line 6 (press h for help or q to quit)
+              print sizes in powers of 1000 (e.g., 1.1G))
+ ESESCOBpage df(1) line 8 (press h for help or q to quit)
+       -i, --inodesline 9 (press h for help or q to quit)
+              list inode information instead of block usage
+ ESESCOBpage df(1) line 11 (press h for help or q to quit)
+       -k     like --block-size=1Kh for help or q to quit)
+ ESESCOBpage df(1) line 13 (press h for help or q to quit)
+       -l, --local line 14 (press h for help or q to quit)
+              limit listing to local file systems to quit)
+ ESESCOBpage df(1) line 16 (press h for help or q to quit)
+       --no-sync1) line 17 (press h for help or q to quit)
+              do not invoke sync before getting usage info (default)
+ ESESCOBpage df(1) line 19 (press h for help or q to quit)
+       --output[=FIELD_LIST]press h for help or q to quit)
+              use the output format defined by FIELD_LIST, or print all fields if FIELD_LIST is omitted.
+ ESESCOBpage df(1) line 22 (press h for help or q to quit)
+       -P, --portability23 (press h for help or q to quit)
+              use the POSIX output formatelp or q to quit)
+ ESESCOBpage df(1) line 25 (press h for help or q to quit)
+       --sync invoke sync before getting usage infoo quit)
+ ESESCOBpage df(1) line 27 (press h for help or q to quit)
+       --totalf(1) line 28 (press h for help or q to quit)
+              elide all entries insignificant to available space, and produce a grand total
+ ESESCOBpage df(1) line 30 (press h for help or q to quit)
+       -t, --type=TYPEe 31 (press h for help or q to quit)
+              limit listing to file systems of type TYPEt)
+ ESESCOBpage df(1) line 33 (press h for help or q to quit)
+       -T, --print-type 34 (press h for help or q to quit)
+              print file system typefor help or q to quit)
+ ESESCOBpage df(1) line 36 (press h for help or q to quit)
+       -x, --exclude-type=TYPEess h for help or q to quit)
+              limit listing to file systems not of type TYPE
+ ESESCOBpage df(1) line 39 (press h for help or q to quit)
+       -v     (ignored) 40 (press h for help or q to quit)
+ ESESCOBpage df(1) line 41 (press h for help or q to quit)
+       --help display this help and exithelp or q to quit)
+ ESESCOBpage df(1) line 43 (press h for help or q to quit)
+       --version1) line 44 (press h for help or q to quit)
+              output version information and exit to quit)
+ ESESCOBpage df(1) line 46 (press h for help or q to quit)
+       Display  values  are in units of the first available SIZE from --block-size, and the DF_BLOCK_SIZE, BLOCK_SIZE
+       and BLOCKSIZE environment variables.  Otherwise, units default to 1024 bytes (or  512  if  POSIXLY_CORRECT  is
+       set). df(1) line 49 (press h for help or q to quit)
+ ESESCOBpage df(1) line 50 (press h for help or q to quit)
+       The  SIZE  argument  is an integer and optional unit (example: 10K is 10*1024).  Units are K,M,G,T,P,E,Z,Y,R,Q
+       (powers of 1024) or KB,MB,... (powers of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+ ESESCOBpage df(1) line 53 (press h for help or q to quit)
+       FIELD_LIST is a comma-separated list of columns to be included.  Valid field names  are:  'source',  'fstype',
+       'itotal', 'iused', 'iavail', 'ipcent', 'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page).
+ ESESCOBpage df(1) line 56 (press h for help or q to quit)
+AUTHOROBpage df(1) line 57 (press h for help or q to quit)
+       Written by Torbjorn Granlund, David MacKenzie, and Paul Eggert.
+ ESESCOBpage df(1) line 59 (press h for help or q to quit)
+REPORTING BUGSf(1) line 60 (press h for help or q to quit)
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report any translation bugs to <https://translationproject.org/team/>
+ ESESCOBpage df(1) line 63 (press h for help or q to quit)
+COPYRIGHTage df(1) line 64 (press h for help or q to quit)
+       Copyright   ©   2023   Free   Software   Foundation,  Inc.   License  GPLv3+:  GNU  GPL  version  3  or  later
+       <https://gnu.org/licenses/gpl.html>.p or q to quit)
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the  extent  per‐
+       mitted by law.ne 68 (press h for help or q to quit)
+ ESESCOBpage df(1) line 69 (press h for help or q to quit)
+SEE ALSOpage df(1) line 70 (press h for help or q to quit)
+       Full documentation <https://www.gnu.org/software/coreutils/df>
+       or available locally via: info '(coreutils) df invocation'
+ ESESCOBpage df(1) line 73 (press h for help or q to quit)
+GNU coreutils 9.4                                     June 2025                                                 DF(1)
+ ESESCOBpage df(1) line 75 (press h for help or q to quit)
+>0;bamperamp@DESKTOP-7IPSMTS: ~/homeworkess h for help or q to quit)
+bamperamp@DESKTOP-7IPSMTS:~/homework$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         953G  534G  420G  57% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            3.8G   84K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  544K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             953G  534G  420G  57% /mnt/c
+tmpfs           774M   20K  774M   1% /run/user/1000
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ wexit
+exit
+
+Script done on 2026-05-18 01:55:37+03:00 [COMMAND_EXIT_CODE="0"]
