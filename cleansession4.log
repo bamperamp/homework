@@ -1,0 +1,17 @@
+Script started on 2026-05-18 02:03:35+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ sleep 300 &
+[1] 5245
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ pgrep sleep
+5245
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ kill P5245
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ pgrep sleep
+[1]+  Terminated              sleep 300
+0;bamperamp@DESKTOP-7IPSMTS: ~/homework
+bamperamp@DESKTOP-7IPSMTS:~/homework$ exit
+exit
+
+Script done on 2026-05-18 02:04:50+03:00 [COMMAND_EXIT_CODE="1"]
