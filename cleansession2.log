@@ -1,0 +1,25 @@
+Script started on 2026-05-17 23:58:57+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"
+amperamp@DESKTOP-7IPSMTS: ~bamperamp@DESKTOP-7IPSMTS:~$ rmdir mkridri dir montaniounm=-cli
+amperamp@DESKTOP-7IPSMTS: ~bamperamp@DESKTOP-7IPSMTS:~$ mkdir -p montanium-cli/notes/day1montanium-cli/notes/day1
+amperamp@DESKTOP-7IPSMTS: ~bamperamp@DESKTOP-7IPSMTS:~$ ls
+Something     clean.log         deploy.log  homework       session.log  test1
+TestText.txt  cleansession.log  hello.txt   montanium-cli  skript
+amperamp@DESKTOP-7IPSMTS: ~bamperamp@DESKTOP-7IPSMTS:~$ cd day1
+bash: cd: day1: No such file or directory
+amperamp@DESKTOP-7IPSMTS: ~bamperamp@DESKTOP-7IPSMTS:~$  cd montanium-cli/notes/day1montanium-cli/notes/day1
+amperamp@DESKTOP-7IPSMTS: ~/montanium-cli/notes/day1bamperamp@DESKTOP-7IPSMTS:~/montanium-cli/notes/day1$ touch README.toxt
+amperamp@DESKTOP-7IPSMTS: ~/montanium-cli/notes/day1bamperamp@DESKTOP-7IPSMTS:~/montanium-cli/notes/day1$ nano README.cttxt
+eading... bamperamp@DESKTOP-7IPSMTS:~/montanium-cli/notes/day1$ cat rereREADME.xttxt
+        
+amperamp@DESKTOP-7IPSMTS: ~/montanium-cli/notes/day1bamperamp@DESKTOP-7IPSMTS:~/montanium-cli/notes/day1$ cp README.xtx README.backup.txtREADME.backup.txt README.backup.txt README.backup.txt README.backup.txtt README.backup.txtx README.backup.txtt README.backup.txt
+amperamp@DESKTOP-7IPSMTS: ~/montanium-cli/notes/day1bamperamp@DESKTOP-7IPSMTS:~/montanium-cli/notes/day1$ mv README.backup.txt archive.xtxt
+amperamp@DESKTOP-7IPSMTS: ~/montanium-cli/notes/day1bamperamp@DESKTOP-7IPSMTS:~/montanium-cli/notes/day1$ rm archive.txt
+amperamp@DESKTOP-7IPSMTS: ~/montanium-cli/notes/day1bamperamp@DESKTOP-7IPSMTS:~/montanium-cli/notes/day1$ ls -la
+total 12
+drwxr-xr-x 2 bamperamp bamperamp 4096 May 18 00:24 .
+drwxr-xr-x 3 bamperamp bamperamp 4096 May 18 00:07 ..
+-rw-r--r-- 1 bamperamp bamperamp  135 May 18 00:19 README.txt
+amperamp@DESKTOP-7IPSMTS: ~/montanium-cli/notes/day1bamperamp@DESKTOP-7IPSMTS:~/montanium-cli/notes/day1$ exit
+exit
+
+Script done on 2026-05-18 00:25:53+03:00 [COMMAND_EXIT_CODE="0"
